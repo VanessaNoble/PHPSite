@@ -37,7 +37,7 @@ foreach ($resultset as $getRow) {
 <html>
 <head></head>
 <body>
-    <h1>Users</h1>
+    <h1 align="center">Users</h1>
     <br>
     <table align="center" cellpadding="2" cellspacing="1" bgcolor="#666666" width="500">
         <tr style="color:#FFF;">
@@ -52,6 +52,7 @@ foreach ($resultset as $getRow) {
             <td align="center">
                 <?php echo $getRow['last_name']; ?>
             </td>
+
         </tr>
         <?php } ?>
     </table>
